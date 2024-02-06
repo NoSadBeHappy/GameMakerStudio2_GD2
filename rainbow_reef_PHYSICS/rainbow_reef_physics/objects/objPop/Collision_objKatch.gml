@@ -1,0 +1,5 @@
+print(phy_collision_x)
+print(phy_collision_y)
+print(phy_speed_x) 
+print(-phy_speed_y)
+physics_apply_impulse(phy_collision_x, phy_collision_y, phy_speed_x, -phy_speed_y)
