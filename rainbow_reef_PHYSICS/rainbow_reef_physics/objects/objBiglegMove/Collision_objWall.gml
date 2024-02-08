@@ -1,2 +1,2 @@
-direction = (direction + 180) % 360
+direction = (direction + 1) % 2
 

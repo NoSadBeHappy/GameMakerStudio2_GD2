@@ -1,3 +1,1 @@
-direction = choose(180,0)
-//init timer to avoid a wall colision loop.
-timer = 0
+direction = choose(1,0)
