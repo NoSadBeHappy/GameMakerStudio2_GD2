@@ -9,7 +9,10 @@
     "name": "platforms",
     "path": "folders/Objects/platforms.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ramp",
+    "path": "objects/obj_ramp/obj_ramp.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

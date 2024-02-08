@@ -1,6 +1,5 @@
 /// @description Insert description here
 
-facing = FACE_LEFT
+facing = FACE_RIGHT
 state = ZSTATE_STAND
 
-instance_change(obj_zool_land, true)

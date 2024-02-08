@@ -286,7 +286,7 @@
     "PhysicsWorld": true,
     "PhysicsWorldGravityX": 0.0,
     "PhysicsWorldGravityY": 30.0,
-    "PhysicsWorldPixToMetres": 0.5,
+    "PhysicsWorldPixToMetres": 0.05,
   },
   "roomSettings": {
     "Height": 600,
