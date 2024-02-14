@@ -10,4 +10,7 @@ function defineConstants(){
 
 #macro FACE_RIGHT 1
 #macro FACE_LEFT -1
+#macro ACCELERATE 2.5
+#macro MAX_ZOOL_SPEED 8
+#macro FRICTION_LAND  1
 }

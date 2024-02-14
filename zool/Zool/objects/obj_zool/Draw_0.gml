@@ -1,5 +1,3 @@
-/// @description Insert description here
-
 if (facing == FACE_RIGHT) {
 	switch (state) {
 		case ZSTATE_STAND:
