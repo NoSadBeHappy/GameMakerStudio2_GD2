@@ -1,5 +1,4 @@
-if (hspeed < MAX_ZOOL_SPEED) {
-	hspeed = hspeed+ACCELERATE
-}
-facing = FACE_LEFT
-state = ZSTATE_WALK
+hspeed = hspeed+ACCELERATE
+
+facing = FACE_RIGHT
+state = ZSTATE_WALK 
