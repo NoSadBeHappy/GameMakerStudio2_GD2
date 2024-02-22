@@ -61,6 +61,7 @@
     {"id":{"name":"obj_ledge","path":"objects/obj_ledge/obj_ledge.yy",},},
     {"id":{"name":"obj_zool_air","path":"objects/obj_zool_air/obj_zool_air.yy",},},
     {"id":{"name":"spt_zool_slip_right","path":"sprites/spt_zool_slip_right/spt_zool_slip_right.yy",},},
+    {"id":{"name":"scr_move_to_contact_with","path":"scripts/scr_move_to_contact_with/scr_move_to_contact_with.yy",},},
     {"id":{"name":"spt_ramp","path":"sprites/spt_ramp/spt_ramp.yy",},},
     {"id":{"name":"spt_ledge","path":"sprites/spt_ledge/spt_ledge.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},

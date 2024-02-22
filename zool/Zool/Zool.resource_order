@@ -38,6 +38,7 @@
     {"name":"spt_zool_stand_left","order":10,"path":"sprites/spt_zool_stand_left/spt_zool_stand_left.yy",},
     {"name":"obj_zool_air","order":2,"path":"objects/obj_zool_air/obj_zool_air.yy",},
     {"name":"spt_zool_slip_right","order":9,"path":"sprites/spt_zool_slip_right/spt_zool_slip_right.yy",},
+    {"name":"scr_move_to_contact_with","order":1,"path":"scripts/scr_move_to_contact_with/scr_move_to_contact_with.yy",},
     {"name":"spt_ramp","order":2,"path":"sprites/spt_ramp/spt_ramp.yy",},
     {"name":"obj_wall","order":5,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spt_zool_slip_left","order":8,"path":"sprites/spt_zool_slip_left/spt_zool_slip_left.yy",},
