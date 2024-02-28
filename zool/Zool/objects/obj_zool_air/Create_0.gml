@@ -1,5 +1,5 @@
 state = ZSTATE_JUMP
-gravity = 1.5
+gravity = 2.0
 gravity_direction = 270
 friction = 0
 
