@@ -17,7 +17,7 @@ if (place_meeting(x, y+1, obj_platform) == 1) {
 	instance_change(obj_zool_land, true)
 }
 
-//set to wall if theres a wall next to
+//set to wall if theres a wall next to (doesent work)
 /*if (place_meeting(x+1, y, obj_platform) == 1) {
 	facing = FACE_RIGHT
 	instance_change(obj_zool_wall, true)
