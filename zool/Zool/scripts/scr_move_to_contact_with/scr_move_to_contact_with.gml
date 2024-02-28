@@ -49,3 +49,24 @@ function scr_move_to_contact_with(dirn, max_dist, contact_obj)
     show_debug_message("===========End of function========");
     return false;
 }
+
+function getZoolState() {
+	switch(state) {
+		case ZSTATE_STAND:
+			return "STAND"
+			break
+		case ZSTATE_WALK:
+			return "walk"
+			break
+		case ZSTATE_JUMP:
+			return "jump"
+			break
+		case ZSTATE_FALL:
+			return "fall"
+			break
+		default:
+			return "look in getZoolState this isn't supposed to happen"
+			break
+	}
+	
+}

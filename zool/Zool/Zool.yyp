@@ -45,6 +45,7 @@
     {"id":{"name":"defineConstants","path":"scripts/defineConstants/defineConstants.yy",},},
     {"id":{"name":"obj_zool_land","path":"objects/obj_zool_land/obj_zool_land.yy",},},
     {"id":{"name":"spt_sweet","path":"sprites/spt_sweet/spt_sweet.yy",},},
+    {"id":{"name":"debug","path":"fonts/debug/debug.yy",},},
     {"id":{"name":"spt_zool_stand_right","path":"sprites/spt_zool_stand_right/spt_zool_stand_right.yy",},},
     {"id":{"name":"obj_zool_wall","path":"objects/obj_zool_wall/obj_zool_wall.yy",},},
     {"id":{"name":"test","path":"rooms/test/test.yy",},},
