@@ -1,3 +1,4 @@
+/// @description RIGHT
 hspeed = hspeed+ACCELERATE
 
 facing = FACE_RIGHT
