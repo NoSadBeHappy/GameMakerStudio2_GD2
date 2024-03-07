@@ -14,6 +14,7 @@ if (facing == FACE_RIGHT) {
 			draw_sprite(spt_zool_fall_right, -1, x, y);
 			break;
 		case ZSTATE_CLIMB:
+		image_index = image_index + 1;
 			draw_sprite(spt_zool_climb_right, image_index, x, y);
 			break;
 		case ZSTATE_CLING:
@@ -40,6 +41,7 @@ if (facing == FACE_RIGHT) {
 			draw_sprite(spt_zool_fall_left, -1, x, y);
 			break;
 		case ZSTATE_CLIMB:
+			image_index = image_index + 1;
 			draw_sprite(spt_zool_climb_left, image_index, x, y);
 			break;
 		case ZSTATE_CLING:
@@ -49,4 +51,7 @@ if (facing == FACE_RIGHT) {
 			show_message("invalid zool state");
 			show_message(state);
 	}
+} else {
+	show_message("invalid facing value");
+	show_message(facing);
 }

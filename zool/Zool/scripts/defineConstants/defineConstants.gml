@@ -17,5 +17,5 @@ function defineConstants(){
 #macro FRICTION_LAND 1
 
 #macro MAX_DRIFT_SPEED 8
-#macro WALL_JUMP_SPEED 15
+#macro WALL_JUMP_SPEED 22
 }
