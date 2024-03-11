@@ -7,6 +7,7 @@ if (!place_meeting(x, y+1, obj_platform)) {
 	}
 }
 
+//i don't remember what this is from, i think its a video though.
 
 /*if (!place_meeting(x + facing, y, obj_wall)) {
 	//if we would have hit the wall on the next step, then go there and go to the wall state
