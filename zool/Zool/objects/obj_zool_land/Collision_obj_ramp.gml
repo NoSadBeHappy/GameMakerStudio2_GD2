@@ -1,2 +1,3 @@
-y = y - speed
-scr_move_to_contact_with(270, -1, all);
+
+y += -speed;
+move_contact_all(270, -1);

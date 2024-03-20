@@ -70,6 +70,12 @@ function getZoolState() {
 		case ZSTATE_CLING:
 			return "cling"
 			break
+		case ZSTATE_SLIP:
+			return "slip"
+			break
+		case ZSTATE_SKID:
+			return "skid"
+			break
 		default:
 			return "look in getZoolState this isn't supposed to happen"
 			break
