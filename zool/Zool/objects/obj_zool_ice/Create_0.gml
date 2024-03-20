@@ -1,1 +1,1 @@
-friction = 0.25;
+friction = FRICTION_ICE;

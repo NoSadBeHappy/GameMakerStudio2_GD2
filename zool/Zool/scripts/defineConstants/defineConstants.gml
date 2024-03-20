@@ -15,6 +15,7 @@ function defineConstants(){
 #macro MAX_HSPEED 14
 #macro MAX_VSPEED 14
 #macro FRICTION_LAND 1
+#macro FRICTION_ICE 0.25
 
 #macro MAX_DRIFT_SPEED 8
 #macro WALL_JUMP_SPEED 22
