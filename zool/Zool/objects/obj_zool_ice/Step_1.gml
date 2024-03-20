@@ -1,3 +1,4 @@
+//set gravity depending on type of slope
 state = ZSTATE_SLIP;
 gravity = 1;
 gravity_direction = 270;
