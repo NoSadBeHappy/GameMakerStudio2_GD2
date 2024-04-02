@@ -1,3 +1,11 @@
+//sounds
+if (state == ZSTATE_WALK) {
+	if (step_count % 8 == 8) {
+		audio_play_sound(snd_footstep, 11, false);
+		show_debug_message("step");
+	}
+}
+
 //go to falling if you walk off a cliff
 if (!place_meeting(x, y+1, obj_platform)) {
 	if (place_meeting(x, y+speed, obj_platform)) {
@@ -10,6 +18,7 @@ if (!place_meeting(x, y+1, obj_platform)) {
 if (place_meeting(x, y + 1, obj_slope)) {
 	instance_change(obj_zool_ice, true);
 }
+
 
 
 //i don't remember what this is from, might be from a video.
