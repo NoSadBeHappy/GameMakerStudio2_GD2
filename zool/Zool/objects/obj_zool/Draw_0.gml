@@ -36,7 +36,7 @@ if (facing == FACE_RIGHT) {
 		case ZSTATE_WALK:
 			image_index = image_index + 1;
 			draw_sprite(spt_zool_walk_left, image_index, x, y);
-			;break;
+			break;
 		case ZSTATE_JUMP:
 			draw_sprite(spt_zool_jump_left, -1, x, y);
 			break;

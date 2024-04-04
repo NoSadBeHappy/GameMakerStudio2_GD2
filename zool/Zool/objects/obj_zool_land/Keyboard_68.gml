@@ -1,5 +1,5 @@
 /// @description RIGHT
 hspeed = hspeed+ACCELERATE
 
-facing = FACE_RIGHT
+obj_zool.facing = FACE_RIGHT
 state = ZSTATE_WALK 
