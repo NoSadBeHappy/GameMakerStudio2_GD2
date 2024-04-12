@@ -13,6 +13,6 @@ if (place_meeting(xprevious + hspeed, y, obj_solid)) {
 }
 
 //set to land if theres a platform under
-if (place_meeting(x, y+1, obj_platform) == 1) {
+if (place_meeting(x, y+1, obj_platform)) {
 	instance_change(obj_zool_land, true)
 }

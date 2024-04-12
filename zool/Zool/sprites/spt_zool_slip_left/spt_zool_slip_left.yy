@@ -50,7 +50,7 @@
     ],
     "top": 0,
   },
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "zool",
     "path": "folders/Sprites/zool.yy",
@@ -91,7 +91,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 24,
-    "yorigin": 32,
+    "yorigin": 24,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
