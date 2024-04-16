@@ -4,8 +4,9 @@ if (place_meeting(x + facing, y - 22, obj_wall)) {
 	state = ZSTATE_CLIMB;
 } else {
 //following line referanced in end step event. different from video.
-y = yprevious - 22
+//for jumping up to the top of a object
+	y = yprevious - 22
 	vspeed = -16;
-	hspeed = facing;
+	hspeed = facing * 2;
 	instance_change(obj_zool_air, true);
 }
