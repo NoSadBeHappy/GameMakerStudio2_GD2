@@ -23,6 +23,9 @@ if (facing == FACE_RIGHT) {
 		case ZSTATE_SLIP:
 			draw_sprite(spt_zool_slip_right, -1, x, y);
 			break;
+		case ZSTATE_SKID:
+			draw_sprite(spt_zool_skid_right, -1, x, y);
+			break;
 		default:
 			show_message("invalid zool state");
 			show_message(state);
@@ -52,6 +55,9 @@ if (facing == FACE_RIGHT) {
 			break;
 		case ZSTATE_SLIP:
 			draw_sprite(spt_zool_slip_left, -1, x, y);
+			break;
+		case ZSTATE_SKID:
+			draw_sprite(spt_zool_skid_left, -1, x, y);
 			break;
 		default:
 			show_message("invalid zool state");

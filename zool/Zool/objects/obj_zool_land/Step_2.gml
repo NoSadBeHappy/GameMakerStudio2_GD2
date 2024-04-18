@@ -1,6 +1,18 @@
+if (state == ZSTATE_STAND) {
+	if (speed > SKID_SPEED) {
+		state = ZSTATE_SKID;
+		audio_play_sound(snd_skid, 100, false);
+	}
+}
+if (state == ZSTATE_SKID) {
+	if (speed < 1) {
+		state = ZSTATE_STAND;
+	}
+}
+
 //sounds
 if (state == ZSTATE_WALK) {
-	if (step_count % 8 == 8) {
+	if (step_count % 8 == 0) {
 		audio_play_sound(snd_footstep, 11, false);
 		show_debug_message("step");
 	}

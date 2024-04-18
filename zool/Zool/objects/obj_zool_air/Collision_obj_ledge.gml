@@ -1,5 +1,6 @@
-//be able to go through ledges if its going up.
-if (vspeed < 0) {
-	show_debug_message("vspeed");
-	exit
+//18 half of collision mask. if zool is all the way below it then exit
+if (yprevious + 18 > other.y) {
+	exit;
 }
+
+obj_solidMoveContact();
