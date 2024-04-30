@@ -8,5 +8,5 @@ if (place_meeting(x + facing, y - 22, obj_wall)) {
 	y = yprevious - 22
 	vspeed = -16;
 	hspeed = facing * 2;
-	instance_change(obj_zool_air, true);
+	instance_change_with_log(obj_zool_air, true, "key press up");
 }

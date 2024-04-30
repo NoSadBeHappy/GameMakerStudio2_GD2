@@ -100,6 +100,13 @@ function obj_solidMoveContact() {
 
 	//set to land if theres a platform under
 	if (place_meeting(x, y+1, obj_platform) == 1) {
-		instance_change(obj_zool_land, true);
+		instance_change_with_log(obj_zool_land, true, "function obj_solidMoveContact");
 	}
+}
+
+function instance_change_with_log(_target_object, _perform_events, _event = "not_listed") {
+	show_debug_message("insance change from" + object_get_name(object_index)
+	+ " to " + object_get_name(_target_object)
+	+ " in " + _event);
+	instance_change(_target_object, _perform_events);
 }

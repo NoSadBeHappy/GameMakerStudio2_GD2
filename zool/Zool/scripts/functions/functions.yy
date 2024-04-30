@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_move_to_contact_with",
+  "name": "functions",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

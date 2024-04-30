@@ -14,21 +14,20 @@ if (state == ZSTATE_SKID) {
 if (state == ZSTATE_WALK) {
 	if (step_count % 8 == 0) {
 		audio_play_sound(snd_footstep, 11, false);
-		show_debug_message("step");
 	}
 }
 
 //go to falling if you walk off a cliff
 if (!place_meeting(x, y+1, obj_platform)) {
 	if (place_meeting(x, y+speed, obj_platform)) {
-		scr_move_to_contact_with(270, -1, obj_platform);
+		functions(270, -1, obj_platform);
 	} else {
-	instance_change(obj_zool_air, true);
+	instance_change_with_log(obj_zool_air, true, "end step");
 	}
 }
 
 if (place_meeting(x, y + 1, obj_slope)) {
-	instance_change(obj_zool_ice, true);
+	instance_change_with_log(obj_zool_ice, true, "end step");
 }
 
 
@@ -46,6 +45,6 @@ if (place_meeting(x, y + 1, obj_slope)) {
 			show_message("look in end step zool land!")
 		}
 		scr_move_to_contact_with(_temp_wanted_direction, -1, obj_wall);
-		instance_change(obj_zool_wall, true);
+		instance_change_with_log(obj_zool_wall, true);
 	}
 }*/
