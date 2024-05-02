@@ -20,7 +20,7 @@ if (state == ZSTATE_WALK) {
 //go to falling if you walk off a cliff
 if (!place_meeting(x, y+1, obj_platform)) {
 	if (place_meeting(x, y+speed, obj_platform)) {
-		functions(270, -1, obj_platform);
+		scr_move_to_contact_with(270, -1, obj_platform);
 	} else {
 	instance_change_with_log(obj_zool_air, true, "end step");
 	}
