@@ -6,3 +6,4 @@ gravity = 0;
 gravity_direction = 270;
 vspeed = 0;
 friction = FRICTION_LAND;
+obj_zool.hurt = 0;

@@ -1,2 +1,3 @@
 /// @description lives goes in here
-lives = 3;
+obj_controller.lives = 3;
+obj_controller.score = 0;
