@@ -1,3 +1,9 @@
+if (hurt && step_count mod 8 < 3) {
+	exit;
+}
+
+
+//draw the right thing
 if (facing == FACE_RIGHT) {
 	switch (state) {
 		case ZSTATE_STAND:
@@ -25,6 +31,10 @@ if (facing == FACE_RIGHT) {
 			break;
 		case ZSTATE_SKID:
 			draw_sprite(spt_zool_skid_right, -1, x, y);
+			break;
+		case ZSTATE_DIE:
+			image_index = image_index + 1;
+			draw_sprite(spt_zool_die_right, image_index, x, y);
 			break;
 		default:
 			show_message("invalid zool state");
@@ -58,6 +68,10 @@ if (facing == FACE_RIGHT) {
 			break;
 		case ZSTATE_SKID:
 			draw_sprite(spt_zool_skid_left, -1, x, y);
+			break;
+		case ZSTATE_DIE:
+			image_index = image_index + 1;
+			draw_sprite(spt_zool_die_left, image_index, x, y);
 			break;
 		default:
 			show_message("invalid zool state");

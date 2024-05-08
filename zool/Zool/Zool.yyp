@@ -69,6 +69,7 @@
     {"id":{"name":"obj_slope_d1","path":"objects/obj_slope_d1/obj_slope_d1.yy",},},
     {"id":{"name":"spt_icon_collect","path":"sprites/spt_icon_collect/spt_icon_collect.yy",},},
     {"id":{"name":"spt_slope_u1","path":"sprites/spt_slope_u1/spt_slope_u1.yy",},},
+    {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},},
     {"id":{"name":"spt_zool_skid_right","path":"sprites/spt_zool_skid_right/spt_zool_skid_right.yy",},},
     {"id":{"name":"obj_zool_ice","path":"objects/obj_zool_ice/obj_zool_ice.yy",},},
     {"id":{"name":"obj_slope_u1","path":"objects/obj_slope_u1/obj_slope_u1.yy",},},

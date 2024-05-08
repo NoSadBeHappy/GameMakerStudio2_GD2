@@ -7,6 +7,7 @@ function defineConstants(){
 #macro ZSTATE_CLING 5
 #macro ZSTATE_SLIP 6
 #macro ZSTATE_SKID 7
+#macro ZSTATE_DIE 8
 
 #macro FACE_RIGHT 1
 #macro FACE_LEFT -1
