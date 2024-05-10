@@ -1,0 +1,1 @@
+game_restart(); //TODO title screen!

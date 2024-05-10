@@ -21,4 +21,5 @@ function defineConstants(){
 #macro MAX_DRIFT_SPEED 8
 #macro WALL_JUMP_SPEED 22
 #macro SKID_SPEED 10
+#macro NUM_DIGITS 6
 }
