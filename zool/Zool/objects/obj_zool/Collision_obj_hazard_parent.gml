@@ -2,6 +2,7 @@
 if (hurt = false) {
 	obj_controller.lives += -1;
 	if (obj_controller.lives < 0) {
+		speed = 0;
 		audio_play_sound(snd_die, 100, 0);
 		if (facing = FACE_LEFT) {
 			instance_change_with_log(obj_zool_die_left, true, "collide obj_hazard_parent");
