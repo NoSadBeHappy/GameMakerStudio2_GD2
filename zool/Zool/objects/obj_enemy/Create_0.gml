@@ -1,1 +1,0 @@
-facing = FACE_RIGHT;

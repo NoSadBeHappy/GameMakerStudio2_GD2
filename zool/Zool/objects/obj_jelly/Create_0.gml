@@ -1,3 +1,3 @@
 randomize();
-facing = choose(-0, 1);
+facing = choose(-1, 1);
 speed = 0.5;
