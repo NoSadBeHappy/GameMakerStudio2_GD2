@@ -22,4 +22,9 @@ function defineConstants(){
 #macro WALL_JUMP_SPEED 22
 #macro SKID_SPEED 10
 #macro NUM_DIGITS 6
+
+#macro ESTATE_MOVE 0
+#macro ESTATE_DECIDE 0
+#macro ESTATE_ATTACK 0
+#macro ESTATE_WAIT 0
 }
