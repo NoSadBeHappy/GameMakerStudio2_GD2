@@ -44,6 +44,7 @@
     {"name":"spt_slope_u3","order":2,"path":"sprites/spt_slope_u3/spt_slope_u3.yy",},
     {"name":"spr_ramp_u7","order":6,"path":"sprites/spr_ramp_u7/spr_ramp_u7.yy",},
     {"name":"spt_zool_jump_left","order":4,"path":"sprites/spt_zool_jump_left/spt_zool_jump_left.yy",},
+    {"name":"obj_beastie_die","order":5,"path":"objects/obj_beastie_die/obj_beastie_die.yy",},
     {"name":"spt_enemy_limit","order":19,"path":"sprites/spt_enemy_limit/spt_enemy_limit.yy",},
     {"name":"snd_enemy_die","order":10,"path":"sounds/snd_enemy_die/snd_enemy_die.yy",},
     {"name":"spt_icon_lives","order":3,"path":"sprites/spt_icon_lives/spt_icon_lives.yy",},

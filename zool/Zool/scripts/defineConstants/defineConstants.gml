@@ -24,7 +24,9 @@ function defineConstants(){
 #macro NUM_DIGITS 6
 
 #macro ESTATE_MOVE 0
-#macro ESTATE_DECIDE 0
-#macro ESTATE_ATTACK 0
-#macro ESTATE_WAIT 0
+#macro ESTATE_DECIDE 1
+#macro ESTATE_ATTACK 2
+#macro ESTATE_WAIT 3
+
+#macro NUMENEMY_PIECES 5
 }

@@ -61,6 +61,7 @@
     {"id":{"name":"spt_slope_u3","path":"sprites/spt_slope_u3/spt_slope_u3.yy",},},
     {"id":{"name":"spr_ramp_u7","path":"sprites/spr_ramp_u7/spr_ramp_u7.yy",},},
     {"id":{"name":"spt_zool_jump_left","path":"sprites/spt_zool_jump_left/spt_zool_jump_left.yy",},},
+    {"id":{"name":"obj_beastie_die","path":"objects/obj_beastie_die/obj_beastie_die.yy",},},
     {"id":{"name":"obj_spike_down","path":"objects/obj_spike_down/obj_spike_down.yy",},},
     {"id":{"name":"spt_enemy_limit","path":"sprites/spt_enemy_limit/spt_enemy_limit.yy",},},
     {"id":{"name":"snd_enemy_die","path":"sounds/snd_enemy_die/snd_enemy_die.yy",},},

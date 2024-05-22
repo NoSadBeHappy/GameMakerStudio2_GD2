@@ -1,13 +1,11 @@
 if (facing == FACE_RIGHT) {
 	switch (state) {
+		case ESTATE_DECIDE:
 		case ESTATE_WAIT:
 			draw_sprite(spt_beastie_stand_right, 0, x, y);
 			break;
 		case ESTATE_ATTACK:
 			draw_sprite(spt_beastie_attack_right, 0, x, y);
-			break;
-		case ESTATE_DECIDE:
-			draw_sprite(spt_beastie_stand_right, 0, x, y);
 			break;
 		case ESTATE_MOVE:
 			image_index ++
@@ -20,14 +18,12 @@ if (facing == FACE_RIGHT) {
 	}
 } else if (facing == FACE_LEFT) {
 	switch (state) {
+		case ESTATE_DECIDE:
 		case ESTATE_WAIT:
 			draw_sprite(spt_beastie_stand_left, 0, x, y);
 			break;
 		case ESTATE_ATTACK:
 			draw_sprite(spt_beastie_attack_left, 0, x, y);
-			break;
-		case ESTATE_DECIDE:
-			draw_sprite(spt_beastie_stand_left, 0, x, y);
 			break;
 		case ESTATE_MOVE:
 			image_index ++
