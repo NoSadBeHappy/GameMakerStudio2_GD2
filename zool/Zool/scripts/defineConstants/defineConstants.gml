@@ -29,4 +29,6 @@ function defineConstants(){
 #macro ESTATE_WAIT 3
 
 #macro NUMENEMY_PIECES 5
+
+#macro COLLECT_PCT_THRESHOLD 85
 }
