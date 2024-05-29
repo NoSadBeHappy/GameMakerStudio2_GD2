@@ -10,10 +10,15 @@ if (hurt = false) {
 			instance_change_with_log(obj_zool_die_right, true, "collide obj_hazard_parent");
 		}
 	} else {
+		
 		audio_play_sound(snd_hurt, 100, 0);
-		vspeed = -22;
-		hspeed = 2 * -facing;
-		hurt = true;
-		alarm_set(0, 60);
+		
+		if (abs(hspeed > 1)) {
+			hspeed = 2 * -facing;
+		} else {
+			vspeed = -22;
+			hurt = true;
+			alarm_set(0, 60);
+		}
 	}
 }

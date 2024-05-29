@@ -29,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spt_beastie_die",
-    "path": "sprites/spt_beastie_die/spt_beastie_die.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

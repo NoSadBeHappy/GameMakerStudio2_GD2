@@ -31,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spt_beastie_stand_right",
-    "path": "sprites/spt_beastie_stand_right/spt_beastie_stand_right.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
