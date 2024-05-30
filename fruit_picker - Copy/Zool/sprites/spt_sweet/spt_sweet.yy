@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spt_sweet",
-  "bbox_bottom": 239,
+  "bbox_bottom": 240,
   "bbox_left": 0,
   "bbox_right": 511,
   "bbox_top": 0,

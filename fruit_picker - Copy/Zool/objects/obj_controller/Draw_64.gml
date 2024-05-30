@@ -18,3 +18,4 @@ repeat(digit) {
 	draw_sprite(spt_icon_digits, real(digit_string), 44+(16*digit), 20);
 	digit += -1
 }
+
