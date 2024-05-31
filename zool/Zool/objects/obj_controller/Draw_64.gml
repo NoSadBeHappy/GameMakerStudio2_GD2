@@ -4,17 +4,16 @@ for(var loop = obj_controller.lives; loop > 0; --loop) {
 	xpixel += sprite_get_width(spt_life) + 16;
 }
 
-
-//make score strings
-var digit = NUM_DIGITS;
+//draw score
 draw_sprite(spt_score, 0, 30, 20);
-var text_string = string_format(obj_controller.score, NUM_DIGITS, false);
-text_string = string_replace_all(text_string, " ", "0");
-digit_string = string_char_at(text_string, digit);
-//actually draw score
+display_number(NUM_DIGITS, 20, obj_controller.score);
+//draw percent
+draw_sprite(spt_icon_percent, 0, 110, 535);
+display_number(3, 550, obj_collect_count.collect_percent);
+show_debug_message(obj_collect_count.collect_percent); //REMOVE!!!
 
-repeat(digit) {
-	digit_string = string_char_at(text_string, digit);
-	draw_sprite(spt_icon_digits, real(digit_string), 44+(16*digit), 20);
-	digit += -1
+//show exit direction arrow
+if (obj_exit.visible) {
+	exit_direction = point_direction(obj_zool.x, obj_zool.y, obj_exit.x, obj_exit.y);
+	draw_sprite(spt_collect_count, 1+round(exit_direction/45), 130, 535);
 }

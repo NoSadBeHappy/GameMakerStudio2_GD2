@@ -110,3 +110,17 @@ function instance_change_with_log(_target_object, _perform_events, _event = "not
 	+ " in " + _event);
 	instance_change(_target_object, _perform_events);
 }
+
+function display_number(num_digits, y_location, number) {
+	//0 out the string and make it all prety
+	var digit = num_digits;
+	var text_string = string_format(number, num_digits, false);
+	text_string = string_replace_all(text_string, " ", "0");
+	digit_string = string_char_at(text_string, digit);
+	repeat(num_digits) {
+		digit_string = string_char_at(text_string, digit);
+		draw_sprite(spt_icon_digits, real(digit_string), 44+(16*digit), y_location);
+		digit += -1
+	}
+	
+}
