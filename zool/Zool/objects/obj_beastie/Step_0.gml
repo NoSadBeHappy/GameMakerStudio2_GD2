@@ -12,7 +12,7 @@ if (state = ESTATE_WAIT) {
 } else if (state = ESTATE_DECIDE) {
 	if (point_distance(x, y, obj_zool.x, obj_zool.y) < 150) {
 		state = ESTATE_WAIT;
-		alarm_set(0, 150);
+		alarm_set(0, 30);
 	} else {
 		state = ESTATE_MOVE;
 	}
