@@ -4,4 +4,5 @@ if (zStateMessages) {
 	draw_set_color(c_white)
 	draw_text(10, 10, className)
 	draw_text(10, 46, getZoolState())
+	draw_text(10, 82, obj_beastie.state)
 }

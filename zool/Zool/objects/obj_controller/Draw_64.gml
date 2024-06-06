@@ -10,7 +10,6 @@ display_number(NUM_DIGITS, 20, obj_controller.score);
 //draw percent
 draw_sprite(spt_icon_percent, 0, 110, 535);
 display_number(3, 550, obj_collect_count.collect_percent);
-show_debug_message(obj_collect_count.collect_percent); //REMOVE!!!
 
 //show exit direction arrow
 if (obj_exit.visible) {

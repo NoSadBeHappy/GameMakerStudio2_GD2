@@ -111,6 +111,7 @@ function instance_change_with_log(_target_object, _perform_events, _event = "not
 	instance_change(_target_object, _perform_events);
 }
 
+
 function display_number(num_digits, y_location, number) {
 	//0 out the string and make it all prety
 	var digit = num_digits;
