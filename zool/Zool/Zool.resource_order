@@ -172,6 +172,7 @@
     {"name":"spt_jelly_up","order":13,"path":"sprites/spt_jelly_up/spt_jelly_up.yy",},
     {"name":"spt_lift_down","order":1,"path":"sprites/spt_lift_down/spt_lift_down.yy",},
     {"name":"spr_ramp_d3","order":10,"path":"sprites/spr_ramp_d3/spr_ramp_d3.yy",},
+    {"name":"obj_beastie_missile","order":6,"path":"objects/obj_beastie_missile/obj_beastie_missile.yy",},
     {"name":"spr_ramp_u4","order":3,"path":"sprites/spr_ramp_u4/spr_ramp_u4.yy",},
   ],
 }

@@ -1,4 +1,4 @@
-if (hurt && step_count mod 8 < 3) {
+if (hurt && obj_controller.step_count mod 8 < 3) {
 	exit;
 }
 

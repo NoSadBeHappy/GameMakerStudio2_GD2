@@ -12,7 +12,7 @@ if (state == ZSTATE_SKID) {
 
 //sounds
 if (state == ZSTATE_WALK) {
-	if (step_count % 8 == 0) {
+	if (obj_controller.step_count % 8 == 0) {
 		audio_play_sound(snd_footstep, 11, false);
 	}
 }

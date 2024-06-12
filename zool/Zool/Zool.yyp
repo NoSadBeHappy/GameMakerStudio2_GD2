@@ -209,6 +209,7 @@
     {"id":{"name":"spt_jelly_up","path":"sprites/spt_jelly_up/spt_jelly_up.yy",},},
     {"id":{"name":"spt_lift_down","path":"sprites/spt_lift_down/spt_lift_down.yy",},},
     {"id":{"name":"spr_ramp_d3","path":"sprites/spr_ramp_d3/spr_ramp_d3.yy",},},
+    {"id":{"name":"obj_beastie_missile","path":"objects/obj_beastie_missile/obj_beastie_missile.yy",},},
     {"id":{"name":"spr_ramp_u4","path":"sprites/spr_ramp_u4/spr_ramp_u4.yy",},},
     {"id":{"name":"tle_sweet","path":"tilesets/tle_sweet/tle_sweet.yy",},},
   ],
